@@ -37,7 +37,7 @@ let s:astral0 = {"gui": "#8A889D", "cterm": "252", "cterm16": "15"}
 let s:astral1 = { "gui": "#cbe3e7", "cterm": "253", "cterm16": "7"}
 
 " Nebula
-let s:red = { "gui": "#F02D3A", "cterm": "204", "cterm16": "1"}
+let s:red = { "gui": "#F3535E", "cterm": "204", "cterm16": "1"}
 let s:dark_red = { "gui": "#DD0426", "cterm": "203", "cterm16": "9"}
 
 let s:green = { "gui": "#79B991", "cterm": "120", "cterm16": "2"}
@@ -128,8 +128,8 @@ call s:h("Number",       {"fg": s:dark_yellow})
 hi! link Boolean          Constant
 hi! link Float            Constant
 
-call s:h("Identifier",    {"fg": s:purple})
-call s:h("Function",      {"fg": s:red})
+call s:h("Identifier",    {"fg": s:red})
+call s:h("Function",      {"fg": s:dark_blue})
 
 call s:h("Label",        {"fg": s:dark_blue})
 hi! link Conditonal       Statement

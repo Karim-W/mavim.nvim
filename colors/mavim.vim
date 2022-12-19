@@ -129,7 +129,7 @@ hi! link Boolean          Constant
 hi! link Float            Constant
 
 call s:h("Identifier",    {"fg": s:red})
-call s:h("Function",      {"fg": s:dark_blue})
+call s:h("Function",      {"fg": s:dark_yellow})
 
 call s:h("Label",        {"fg": s:dark_blue})
 hi! link Conditonal       Statement
@@ -138,7 +138,7 @@ hi! link Exception        Statement
 call s:h("Operator",     {"fg": s:dark_cyan})
 hi! link Repeat           Operator
 
-call s:h("PreProc",       {"fg": s:green})
+call s:h("PreProc",       {"fg": s:dark_blue})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc

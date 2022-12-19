@@ -37,11 +37,11 @@ let s:astral0 = {"gui": "#8A889D", "cterm": "252", "cterm16": "15"}
 let s:astral1 = { "gui": "#cbe3e7", "cterm": "253", "cterm16": "7"}
 
 " Nebula
-let s:red = { "gui": "#F48FB1", "cterm": "204", "cterm16": "1"}
-let s:dark_red = { "gui": "#F02E6E", "cterm": "203", "cterm16": "9"}
+let s:red = { "gui": "#BA2612", "cterm": "204", "cterm16": "1"}
+let s:dark_red = { "gui": "#821B0D", "cterm": "203", "cterm16": "9"}
 
-let s:green = { "gui": "#A1EFD3", "cterm": "120", "cterm16": "2"}
-let s:dark_green = { "gui": "#62d196", "cterm": "119", "cterm16": "10"}
+let s:green = { "gui": "#4d9366", "cterm": "120", "cterm16": "2"}
+let s:dark_green = { "gui": "#315E41", "cterm": "119", "cterm16": "10"}
 
 let s:yellow = { "gui": "#ffe6b3", "cterm": "228", "cterm16": "3"}
 let s:dark_yellow = { "gui": "#F2B482", "cterm": "215", "cterm16": "11"}

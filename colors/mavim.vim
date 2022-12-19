@@ -41,6 +41,7 @@ let s:red = { "gui": "#F3535E", "cterm": "204", "cterm16": "1"}
 let s:dark_red = { "gui": "#DD0426", "cterm": "203", "cterm16": "9"}
 
 let s:green = { "gui": "#79B991", "cterm": "120", "cterm16": "2"}
+let s:sage_green = { "gui": "#88AA8D", "cterm": "120", "cterm16": "2"}
 let s:dark_green = { "gui": "#4d9366", "cterm": "119", "cterm16": "10"}
 
 let s:yellow = { "gui": "#ffe6b3", "cterm": "228", "cterm16": "3"}
@@ -116,7 +117,7 @@ endfunction
 " == COMMON GROUPS ==
 "
 " (see `:h w18`)
-call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
+call s:h("Normal",        {"bg": s:bg, "fg": s:sage_green})
 call s:h("Cursor",        {"bg": s:blue, "fg": s:bg_bright})
 call s:h("Comment",       {"fg": s:norm_subtle, "gui": s:maybe_italic(""), "cterm": s:maybe_italic("")})
 

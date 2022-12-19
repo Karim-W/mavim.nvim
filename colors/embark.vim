@@ -1,7 +1,6 @@
 " Vim Color File
-" Name: embark.vim
-" Based On: Challenger Deep, Ayu Mirage, and Manta
-
+" Name: mavim.vim
+" Based On: embark
 " == PRELUDE ==
 "
 " Setup and configuration

@@ -1,6 +1,6 @@
 " Colors
 let s:deep_space= { "gui": "#100E23", "cterm": "232", "cterm16": "8"}
-let s:space = { "gui": "#1e1c31", "cterm": "233", "cterm16": "NONE"}
+let s:space = { "gui": "#0A0A0A", "cterm": "233", "cterm16": "NONE"}
 let s:eclipse = { "gui": "#3E3859", "cterm": "236", "cterm16": "0"}
 
 let s:red = { "gui": "#F48FB1", "cterm": "204", "cterm16": "1"}

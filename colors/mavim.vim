@@ -26,11 +26,11 @@ endif
 " TODO: Cterm values here are OG from Challenger Deep
 
 " Space
-let s:space0 = { "gui": "#100E23", "cterm": "232", "cterm16": "0"}
-let s:space1 = { "gui": "#1e1c31", "cterm": "233", "cterm16": "NONE"}
-let s:space2 = { "gui": "#2D2B40", "cterm": "233", "cterm16": "NONE" }
-let s:space3 = { "gui": "#3E3859", "cterm": "236", "cterm16": "8"}
-let s:space4 = { "gui": "#585273", "cterm": "236", "cterm16": "8"}
+let s:space0 = { "gui": "#000000", "cterm": "232", "cterm16": "0"}
+let s:space1 = { "gui": "#0A0A0A", "cterm": "233", "cterm16": "NONE"}
+let s:space2 = { "gui": "#141414", "cterm": "233", "cterm16": "NONE" }
+let s:space3 = { "gui": "#1F1F1F", "cterm": "236", "cterm16": "8"}
+let s:space4 = { "gui": "#292929", "cterm": "236", "cterm16": "8"}
 
 " Astral
 let s:astral0 = {"gui": "#8A889D", "cterm": "252", "cterm16": "15"}

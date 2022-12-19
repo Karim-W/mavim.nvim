@@ -144,7 +144,7 @@ hi! link Define           PreProc
 hi! link Macro            PreProc
 hi! link PreCondit        PreProc
 
-call s:h("Keyword",       {"fg": s:green})
+call s:h("Keyword",       {"fg": s:cyan})
 hi! link Statement        Keyword
 
 call s:h("Type",          {"fg": s:blue})

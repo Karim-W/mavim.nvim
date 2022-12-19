@@ -31,7 +31,7 @@ let s:norm            = s:clouds
 let s:norm_subtle     = s:dark_clouds
 let s:visual          = s:bg_bright
 
-" lightline embark colors
+" lightline mavim colors
 let s:lfc = {
       \'space': [s:space.gui, s:space.cterm16],
       \'deep_space': [s:deep_space.gui, s:deep_space.cterm16],
@@ -89,5 +89,5 @@ let s:p.inactive.left   = [ [ s:lfc.eclipse, s:lfc.bg_dark ], [ s:lfc.eclipse, s
 let s:p.inactive.middle = [ [ s:lfc.eclipse, s:lfc.bg_dark ] ]
 let s:p.inactive.right  = [ [ s:lfc.eclipse, s:lfc.bg_dark ], [ s:lfc.eclipse, s:lfc.bg_dark ] ]
 
-let g:lightline#colorscheme#embark#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#mavim#palette = lightline#colorscheme#flatten(s:p)
 

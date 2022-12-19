@@ -1,6 +1,6 @@
 " Vim Color File
 " Name: mavim.vim
-" Based On: embark
+" Based On: mavim
 " == PRELUDE ==
 "
 " Setup and configuration
@@ -13,12 +13,12 @@ endif
 let g:colors_name='mavim'
 set background=dark
 
-if !exists("g:embark_terminal_italics")
-  let g:embark_terminal_italics = 0
+if !exists("g:mavim_terminal_italics")
+  let g:mavim_terminal_italics = 0
 endif
 
-if !exists("g:embark_terminalcolors")
-  let g:embark_termcolors = 256
+if !exists("g:mavim_terminalcolors")
+  let g:mavim_termcolors = 256
 endif
 
 " == COLOR PALETTE == 
@@ -75,7 +75,7 @@ let s:diff_changed = { "gui": "#211f42", "cterm": "215", "cterm16": "11"}
 " shamelessly stolen from hemisu: https://github.com/noahfrederick/vim-hemisu/
 function! s:h(group, style)
   " Not all terminals support italics properly. If yours does, opt-in.
-  if g:embark_termcolors == 16
+  if g:mavim_termcolors == 16
     let l:ctermfg = (has_key(a:style, "fg") ? a:style.fg.cterm16 : "NONE")
     let l:ctermbg = (has_key(a:style, "bg") ? a:style.bg.cterm16 : "NONE")
   else
@@ -94,7 +94,7 @@ endfunction
 
 function! s:maybe_italic(style)
   " Are italics turned on
-  if g:embark_terminal_italics == 1
+  if g:mavim_terminal_italics == 1
     " if there are other styles than italics concat
     if empty(a:style)
       return "italic"

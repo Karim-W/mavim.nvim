@@ -47,6 +47,10 @@ let s:dark_green = { "gui": "#4d9366", "cterm": "119", "cterm16": "10"}
 let s:yellow = { "gui": "#ffe6b3", "cterm": "228", "cterm16": "3"}
 let s:dark_yellow = { "gui": "#F2B482", "cterm": "215", "cterm16": "11"}
 
+let s:magnolia = { "gui": "#EBE4F1", "cterm": "215", "cterm16": "11"}
+
+let s:gold = { "gui": "#FDB849", "cterm": "215", "cterm16": "11"}
+
 let s:blue = { "gui": "#91ddff", "cterm": "159", "cterm16": "4"}
 let s:dark_blue = { "gui": "#65b2ff", "cterm": "75", "cterm16": "12"}
 
@@ -55,6 +59,13 @@ let s:dark_purple = { "gui": "#a37acc", "cterm": "135", "cterm16": "13"}
 
 let s:cyan = { "gui": "#87DFEB", "cterm": "122", "cterm16": "6"}
 let s:dark_cyan = { "gui": "#63f2f1", "cterm": "121", "cterm16": "14"}
+
+let s:cornflower_blue = { "gui": "#539BFF", "cterm": "111", "cterm16": "6"}
+
+let s:pastel_pink = { "gui": "#F2A6A6", "cterm": "205", "cterm16": "1"}
+
+let s:grullo = { "gui": "#AC9E8A", "cterm": "244", "cterm16": "15"}
+
 
 let s:bg              = s:space1
 let s:bg_dark       = s:space0
@@ -66,6 +77,7 @@ let s:visual          = s:space3
 let s:head_a         = s:dark_blue
 let s:head_b         = s:blue
 let s:head_c         = s:dark_cyan
+let s:fire_opal ={ "gui": "#E86252", "cterm": "205", "cterm16": "1"}
 
 let s:diff_del = { "gui": "#301E30", "cterm": "203", "cterm16": "9"}
 let s:diff_add = { "gui": "#133246", "cterm": "119", "cterm16": "10"}
@@ -117,29 +129,29 @@ endfunction
 " == COMMON GROUPS ==
 "
 " (see `:h w18`)
-call s:h("Normal",        {"bg": s:bg, "fg": s:sage_green})
+call s:h("Normal",        {"bg": s:bg, "fg": s:astral1})
 call s:h("Cursor",        {"bg": s:blue, "fg": s:bg_bright})
-call s:h("Comment",       {"fg": s:norm_subtle, "gui": s:maybe_italic(""), "cterm": s:maybe_italic("")})
+call s:h("Comment",       {"fg": s:grullo, "gui": s:maybe_italic(""), "cterm": s:maybe_italic("")})
 
-call s:h("Constant",      {"fg": s:yellow})
+call s:h("Constant",      {"fg": s:pastel_pink})
 hi! link String           Constant
 hi! link Character        Constant
 
-call s:h("Number",       {"fg": s:dark_yellow})
+call s:h("Number",       {"fg": s:pastel_pink})
 hi! link Boolean          Constant
 hi! link Float            Constant
 
-call s:h("Identifier",    {"fg": s:red})
-call s:h("Function",      {"fg": s:dark_yellow})
+call s:h("Identifier",    {"fg": s:magnolia})
+call s:h("Function",      {"fg": s:gold})
 
 call s:h("Label",        {"fg": s:dark_blue})
 hi! link Conditonal       Statement
 hi! link Exception        Statement
 
-call s:h("Operator",     {"fg": s:dark_cyan})
+call s:h("Operator",     {"fg": s:fire_opal})
 hi! link Repeat           Operator
 
-call s:h("PreProc",       {"fg": s:dark_blue})
+call s:h("PreProc",       {"fg": s:cornflower_blue})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
@@ -148,7 +160,7 @@ hi! link PreCondit        PreProc
 call s:h("Keyword",       {"fg": s:cyan})
 hi! link Statement        Keyword
 
-call s:h("Type",          {"fg": s:blue})
+call s:h("Type",          {"fg": s:cornflower_blue})
 hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
